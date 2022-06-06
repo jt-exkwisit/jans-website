@@ -1,0 +1,19 @@
+$primary: #A7226E;
+$secondary: #F26B38;
+$success: #2F9599;
+$warning: #F7DB4F;
+$danger: #EC2049;
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "./node_modules/bootstrap/scss/mixins";
+
+/*
+$custom-colors: (
+  "secondary2": $secondary2,
+) !default;
+$theme-colors: map-merge($theme-colors, $custom-colors);
+*/
+@import "./node_modules/bootstrap/scss/bootstrap";
+.container {
+  // box-shadow: 0px 0px 20px 1px lightgray;
+}
